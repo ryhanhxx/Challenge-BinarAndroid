@@ -290,7 +290,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/poppins_semibold"
+                    android:fontFamily="@font/poppins_bold"
                     android:text="@string/text_popular"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
