@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">foodapp</string>
+    <string name="heading1">Discover</string>
+    <string name="heading2">What do you want to eat?</string>
+    <string name="text_nasi">Nasi</string>
+    <string name="text_mie">Mie</string>
+    <string name="text_snack">Snack</string>
+    <string name="text_minum">Minum</string>
+    <string name="text_popular">Popular</string>
+    <string name="text_ayambakar">Ayam Bakar</string>
+    <string name="text_price50">Rp. 50.000</string>
+    <string name="text_price40">Rp. 40.000</string>
+    <string name="text_price5">Rp. 5.000</string>
+    <string name="text_ayamgeprek">Ayam Geprek</string>
+    <string name="text_sateususayam">Sate Usus Ayam</string>
+    <string name="text_ayamgoreng">Ayam Goreng</string>
+    <string name="text_subtitlebanner">Connecting you with the Best Culinary.</string>
+    <string name="text_titlebanner">Flavour Dash</string>
 </resources>
