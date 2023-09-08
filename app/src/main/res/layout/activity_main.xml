@@ -135,19 +135,20 @@
                 android:id="@+id/cl_listcategory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginVertical="10dp"
                 android:gravity="center"
                 app:layout_constraintTop_toBottomOf="@id/cv_banner">
 
                 <LinearLayout
-                    android:id="@+id/ll_appetizer"
+                    android:id="@+id/ll_nasi"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:orientation="vertical"
-                    app:layout_constraintEnd_toStartOf="@id/ll_soup"
+                    app:layout_constraintEnd_toStartOf="@id/ll_mie"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
@@ -175,14 +176,14 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/ll_soup"
+                    android:id="@+id/ll_mie"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:orientation="vertical"
-                    app:layout_constraintEnd_toStartOf="@id/ll_dessert"
-                    app:layout_constraintStart_toEndOf="@id/ll_appetizer"
+                    app:layout_constraintEnd_toStartOf="@id/ll_snack"
+                    app:layout_constraintStart_toEndOf="@id/ll_nasi"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <androidx.cardview.widget.CardView
@@ -209,14 +210,14 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/ll_dessert"
+                    android:id="@+id/ll_snack"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:orientation="vertical"
                     app:layout_constraintEnd_toStartOf="@id/ll_drink"
-                    app:layout_constraintStart_toEndOf="@id/ll_soup"
+                    app:layout_constraintStart_toEndOf="@id/ll_mie"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <androidx.cardview.widget.CardView
@@ -250,7 +251,7 @@
                     android:layout_margin="8dp"
                     android:orientation="vertical"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/ll_dessert"
+                    app:layout_constraintStart_toEndOf="@id/ll_snack"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <androidx.cardview.widget.CardView
@@ -354,6 +355,7 @@
                             android:fontFamily="@font/poppins"
                             android:text="@string/text_price50"
                             android:textAlignment="center"
+                            android:textColor="@color/brown"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -400,6 +402,7 @@
                             android:fontFamily="@font/poppins"
                             android:text="@string/text_price40"
                             android:textAlignment="center"
+                            android:textColor="@color/brown"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -446,6 +449,7 @@
                             android:fontFamily="@font/poppins"
                             android:text="@string/text_price40"
                             android:textAlignment="center"
+                            android:textColor="@color/brown"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -492,6 +496,7 @@
                             android:fontFamily="@font/poppins"
                             android:text="@string/text_price5"
                             android:textAlignment="center"
+                            android:textColor="@color/brown"
                             android:textSize="12sp" />
                     </LinearLayout>
 
