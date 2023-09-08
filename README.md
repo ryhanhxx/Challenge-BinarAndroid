@@ -1,2 +1,4 @@
 # Challenge2-BinarAndroid
-Challenge 2 Binar 8-09-23.
+Layouting menu interface using viewgroups and views.
+
+Muhammad Rayhan Hakim.
