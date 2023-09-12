@@ -2,11 +2,12 @@
 <resources>
     <color name="black">#FF252525</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="green_dark">#FF5FB9B0</color>
-    <color name="green_light">#FFBEF992</color>
-    <color name="brown">#FFBA704F</color>
-    <color name="red">#FFC51605</color>
-    <color name="red_light">#FFF94C10</color>
+    <color name="primaryColor">#FF64A97B</color>
+    <color name="secondaryColor">#FFD8E9A8</color>
+    <color name="thirdColor">#FFAFBD87</color>
+    <color name="priceColor">#FFC63D2F</color>
+
+
 
 
 </resources>
