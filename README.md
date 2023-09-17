@@ -1,4 +1,4 @@
 # Challenge2-BinarAndroid
-Layouting menu interface using viewgroups and views.
+Challenge Android Engineering Course Binar Academy.
 
 Muhammad Rayhan Hakim.
