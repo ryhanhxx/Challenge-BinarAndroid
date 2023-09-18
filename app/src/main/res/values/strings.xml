@@ -2,11 +2,11 @@
     <string name="app_name">foodapp</string>
     <string name="heading1">Discover</string>
     <string name="heading2">What do you want to eat?</string>
-    <string name="text_nasi">Nasi</string>
+    <string name="text_burger">Burger</string>
     <string name="text_mie">Mie</string>
     <string name="text_snack">Snack</string>
     <string name="text_minum">Minum</string>
-    <string name="text_popular">Popular</string>
+    <string name="heading3">Popular</string>
     <string name="text_ayambakar">Ayam Bakar</string>
     <string name="text_price50">Rp. 50.000</string>
     <string name="text_price40">Rp. 40.000</string>
@@ -16,4 +16,12 @@
     <string name="text_ayamgoreng">Ayam Goreng</string>
     <string name="text_subtitlebanner">Connecting you with the Best Culinary.</string>
     <string name="text_titlebanner">Flavour Dash</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_food_desc">A variant of traditional Chinese dumplings served steamed and fried</string>
+    <string name="text_title_location">Location</string>
+    <string name="text_desc_location" href="https://maps.app.goo.gl/h4wQKqaBuXzftGK77">Jl. BSD Green Office Park Jl. BSD Grand Boulevard, Sampora, BSD, Kabupaten Tangerang Banten 15345</string>
+    <string name="btn_addcart">Add to cart</string>
+    <string name="btn_order">Order Now</string>
+    <string name="text_rating">(4,7K Review)</string>
 </resources>
