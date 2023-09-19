@@ -1,12 +1,13 @@
 package com.ch.foodapp.presentation
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import coil.load
 import com.ch.foodapp.databinding.FragmentDetailBinding
 import com.ch.foodapp.model.Food
@@ -41,14 +42,18 @@ class DetailFragment : Fragment() {
     }
 
     private fun navigateToMaps() {
-        /*val location = Intent(this.requireContext())*/
+        val intent = Intent(
+            Intent.ACTION_VIEW,
+            Uri.parse("https://maps.app.goo.gl/h4wQKqaBuXzftGK77")
+        )
+        startActivity(intent)
     }
 
     private fun showFoodData() {
-        if (food != null) {/*
-            binding.ivImagedetail.load(food?.imgUrl)*/
-            binding.tvFoodname.text = food?.name
-            binding.tvFoodprice.text = food?.price
+        if (food != null) {
+            binding.ivImage.load(food?.imgUrl)
+            binding.tvName.text = food?.name
+            binding.tvPrice.text = food?.price
         } else {
             Toast.makeText(requireContext(), "Food Not Found", Toast.LENGTH_SHORT).show()
         }

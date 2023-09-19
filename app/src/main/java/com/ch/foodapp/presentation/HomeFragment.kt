@@ -15,6 +15,7 @@ import com.ch.foodapp.model.Food
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
+
     private val adapter: FoodListAdapter by lazy {
         FoodListAdapter {
             navigateToDetailFragment(it)
@@ -34,7 +35,10 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupRecyclerview()
-        /*setOnClick()*/
+        setOnClickChangeView()
+    }
+
+    private fun setOnClickChangeView() {
     }
 
     private fun setupRecyclerview() {
@@ -42,17 +46,6 @@ class HomeFragment : Fragment() {
         binding.rvFoods.layoutManager = LinearLayoutManager(requireContext())
         adapter.setData(FoodDataSourceImpl().getFoodData())
     }
-
-    /*private fun setOnClick() {
-        binding.clMenu1.setOnClickListener {
-            navigateToDetail()
-        }
-    }
-
-    private fun navigateToDetail() {
-        val action = HomeFragmentDirections.navigateToDetail()
-        findNavController().navigate(action)
-    }*/
 
     private fun navigateToDetailFragment(food: Food? = null) {
         val action = HomeFragmentDirections.navigateToDetail(food)

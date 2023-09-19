@@ -51,8 +51,8 @@ class FoodListViewHolder(
     fun bind(item: Food) {
         binding.root.setOnClickListener {
             onItemClick.invoke(item)
-        }/*
-        binding.ivImage.load(item.imgUrl)*/
+        }
+        binding.ivImage.load(item.imgUrl)
         binding.tvName.text = item.name
         binding.tvPrice.text = item.price
     }
