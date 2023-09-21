@@ -34,7 +34,7 @@ class FoodDataSourceImpl() : FoodDataSource {
             Food(
                 imgUrl="https://raw.githubusercontent.com/ryhanhxx/Challenge-BinarAndroid/feature_navigation_component/app/src/main/res/drawable/img_ayampanggang.webp",
                 name = "Ayam Panggang",
-                price = "Rp. 18.000",
+                price = "Rp. 19.000",
                 desc = "A variant of traditional Chinese dumplings served steamed and fried.",
                 quantity = 1
             ),
