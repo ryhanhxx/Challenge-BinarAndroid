@@ -32,16 +32,16 @@ class FoodDataSourceImpl() : FoodDataSource {
                 quantity = 1
             ),
             Food(
-                imgUrl="https://raw.githubusercontent.com/ryhanhxx/Challenge-BinarAndroid/feature_navigation_component/app/src/main/res/drawable/img_ayampanggang.webp",
+                imgUrl="https://raw.githubusercontent.com/ryhanhxx/Challenge-BinarAndroid/feature_navigation_component/app/src/main/res/drawable/img_ayamgpanggang.webp",
                 name = "Ayam Panggang",
                 price = "Rp. 12.000",
                 desc = "A variant of traditional Chinese dumplings served steamed and fried.",
                 quantity = 1
             ),
             Food(
-                imgUrl="https://raw.githubusercontent.com/ryhanhxx/Challenge-BinarAndroid/feature_navigation_component/app/src/main/res/drawable/img_dimsum.webp",
-                name = "Dim Sum",
-                price = "Rp. 25.000",
+                imgUrl="https://raw.githubusercontent.com/ryhanhxx/Challenge-BinarAndroid/feature_navigation_component/app/src/main/res/drawable/img_kopi.webp",
+                name = "Kopi",
+                price = "Rp. 5.000",
                 desc = "A variant of traditional Chinese dumplings served steamed and fried.",
                 quantity = 1
             ),
