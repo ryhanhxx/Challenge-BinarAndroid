@@ -42,11 +42,11 @@ class DetailFragment : Fragment() {
     }
 
     private fun navigateToMaps() {
-        val intent = Intent(
+        val direct = Intent(
             Intent.ACTION_VIEW,
             Uri.parse("https://maps.app.goo.gl/h4wQKqaBuXzftGK77")
         )
-        startActivity(intent)
+        startActivity(direct)
     }
 
     private fun showFoodData() {
@@ -54,6 +54,8 @@ class DetailFragment : Fragment() {
             binding.ivImage.load(food?.imgUrl)
             binding.tvName.text = food?.name
             binding.tvPrice.text = food?.price
+            binding.tvDesc.text = food?.desc
+            binding.tvQuantity.text = food?.quantity.toString()
         } else {
             Toast.makeText(requireContext(), "Food Not Found", Toast.LENGTH_SHORT).show()
         }
