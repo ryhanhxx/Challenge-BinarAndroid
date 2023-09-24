@@ -87,8 +87,8 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/img_btn_remove"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/tv_quantity"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -98,8 +98,8 @@
                 android:layout_marginHorizontal="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/iv_btnadd"
-                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toEndOf="@id/iv_btnremove"
+                app:layout_constraintTop_toTopOf="parent"
                 tools:text="1" />
 
             <ImageView
@@ -109,8 +109,6 @@
                 android:src="@drawable/img_btn_add"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -174,6 +172,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="4dp"
+                android:padding="10dp"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="@string/btn_addcart"
                 app:layout_constraintEnd_toStartOf="@id/btn_buynow"

@@ -14,7 +14,7 @@ class FoodDataSourceImpl() : FoodDataSource {
                 name = "Sushi",
                 price = "Rp. 50.000",
                 desc = "A variant of traditional Chinese dumplings served steamed and fried.",
-                quantity = 1
+                quantity = 2
             ),
             Food(
                 imgUrl="https://raw.githubusercontent.com/ryhanhxx/Challenge-BinarAndroid/feature_navigation_component/app/src/main/res/drawable/img_taichan.webp",
